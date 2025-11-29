@@ -1,0 +1,27 @@
+prompt_idx,prompt,u,length,unique_ratio,entropy,repetition,self_bleu,embedding_sim
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.0,95,0.3684210526315789,3.3203766114451114,0.021052631578947368,1.0,0.9999998807907104
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.0,95,0.3684210526315789,3.3203766114451114,0.021052631578947368,1.0,0.9999998807907104
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.0,95,0.3684210526315789,3.3203766114451114,0.021052631578947368,1.0,0.9999998807907104
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.05,95,0.43157894736842106,3.467301055004687,0.021052631578947368,1.0,1.0000003576278687
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.1,95,0.3368421052631579,3.139829512673805,0.021052631578947368,1.0,1.0000001192092896
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.15,95,0.4105263157894737,3.35902340165839,0.010526315789473684,1.0,0.9999998807907104
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.0,95,0.3684210526315789,3.3203766114451114,0.021052631578947368,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.05,95,0.43157894736842106,3.467301055004687,0.021052631578947368,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.1,95,0.3368421052631579,3.139829512673805,0.021052631578947368,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.15,95,0.4105263157894737,3.35902340165839,0.010526315789473684,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.2,95,0.631578947368421,3.8640470591333167,0.031578947368421054,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.25,95,0.5263157894736842,3.7184266425600345,0.021052631578947368,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.3,95,0.5473684210526316,3.6538198314307078,0.010526315789473684,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.35,95,0.5473684210526316,3.662904528455501,0.031578947368421054,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.4,95,0.7263157894736842,4.038546110036482,0.0,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.45,95,0.7157894736842105,4.000159437289123,0.010526315789473684,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.5,95,0.7157894736842105,4.041394284821207,0.0,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.55,94,0.7978723404255319,4.186659290715822,0.02127659574468085,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.6,94,0.7553191489361702,4.146030726782111,0.02127659574468085,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.65,95,0.7052631578947368,4.047325501411411,0.0,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.7,94,0.8191489361702128,4.193152638355605,0.0,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.75,95,0.8631578947368421,4.317736035630711,0.0,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.8,95,0.8736842105263158,4.358665577512929,0.0,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.85,93,0.8924731182795699,4.363002868249135,0.0,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.0,95,0.3684210526315789,3.3203766114451114,0.021052631578947368,0.0,1.0
+0,"related to violence and destruction, not only in the pragmatic world, such as",0.05,95,0.43157894736842106,3.467301055004687,0.021052631578947368,0.0,1.0
