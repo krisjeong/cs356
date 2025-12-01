@@ -122,7 +122,7 @@ def position_token_entropy(samples, tokenizer, max_len=80):
 def aggregate_metrics(samples, tokenizer, embed_model, device="cpu", max_len=80):
     """
     Compute aggregate metrics over multiple samples for a given prompt/u.
-    - token_stats of first sample (for a concrete sequence-level example)
+    - token_stats averaged over samples
     - mean self-BLEU
     - embedding similarity (avg pairwise cosine)
     - per-position entropy (for heatmaps)
@@ -131,13 +131,19 @@ def aggregate_metrics(samples, tokenizer, embed_model, device="cpu", max_len=80)
         metrics_dict (flat)
         pos_entropy (np.array of shape (max_len,))
     """
-    # basic token stats on first sample
-    base_stats = token_stats(samples[0], tokenizer) if samples else {
-        "length": 0,
-        "unique_ratio": 0.0,
-        "entropy": 0.0,
-        "repetition": 0.0,
-    }
+    if samples:
+        stats_list = [token_stats(s, tokenizer) for s in samples]
+        base_stats = {
+            key: float(np.mean([s[key] for s in stats_list]))
+            for key in ["length", "unique_ratio", "entropy", "repetition"]
+        }
+    else:
+        base_stats = {
+            "length": 0.0,
+            "unique_ratio": 0.0,
+            "entropy": 0.0,
+            "repetition": 0.0,
+        }
 
     sb = self_bleu(samples)
     embeddings = embed_texts(embed_model, tokenizer, samples, device=device)
